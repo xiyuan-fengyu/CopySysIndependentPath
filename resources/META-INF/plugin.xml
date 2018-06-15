@@ -1,7 +1,7 @@
-<idea-plugin version="2">
-  <id>com.xiyuan</id>
+<idea-plugin>
+  <id>com.xiyuan.CopySysIndependentPath</id>
   <name>CopySysIndependentPath</name>
-  <version>1.0</version>
+  <version>1.0.1</version>
   <vendor email="xiyuan_fengyu@163.com" url="http://www.yourcompany.com">xiyuan.com</vendor>
 
   <description><![CDATA[
