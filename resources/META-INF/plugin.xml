@@ -1,22 +1,16 @@
 <idea-plugin>
   <id>com.xiyuan.CopySysIndependentPath</id>
   <name>CopySysIndependentPath</name>
-  <version>1.0.1</version>
-  <vendor email="xiyuan_fengyu@163.com" url="http://www.yourcompany.com">xiyuan.com</vendor>
+  <version>1.0.2</version>
+  <vendor email="xiyuan_fengyu@163.com" url="https://github.com/xiyuan-fengyu/">xiyuan.com</vendor>
 
   <description><![CDATA[
-      Enter short description for your plugin here.<br>
-      <em>most HTML tags may be used</em>
+    <p>Copy System Independent Path, \ will be converted to /</p>
     ]]></description>
 
-  <change-notes><![CDATA[
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>
-    ]]>
-  </change-notes>
 
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
-  <idea-version since-build="145.0"/>
+  <idea-version since-build="173.0"/>
 
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
        on how to target different products -->
@@ -31,7 +25,7 @@
   <actions>
     <!-- Add your actions here -->
     <action id="com.xiyuan.CopySysIndependentPath" class="com.xiyuan.copypath.action.CopySysIndependentPathAction"
-            text="Copy Sys Independent Path" description="Copy Sys Independent Path">
+            text="Copy Sys Independent Path" description="Copy System Independent Path, \ will be converted to /">
       <add-to-group group-id="ProjectViewPopupMenu" anchor="after" relative-to-action="CutCopyPasteGroup"/>
     </action>
   </actions>
